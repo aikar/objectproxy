@@ -1,0 +1,15 @@
+{
+	"name":"objectproxy",
+    "description": "Proxys objects over streams to quickly 'act' with an object on seperate processes.",
+	"version":"0.0.1",
+	"author":"Aikar <aikar@aikar.co> (http://www.aikar.co)",
+	"main":"lib/objectproxy.js",
+	"engines": {
+		"node": ">=0.4"
+	},
+	"dependencies": {},
+	"bundledDependencies": [
+		"wormhole",
+		"objectproxy"
+	]
+}
